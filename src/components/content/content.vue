@@ -76,6 +76,7 @@
             "Content-type": "application/json"
           },
         }).then(response => {
+          console.log(response.body);
           return response.json()
         })
         this.visitors=data.data.rows;

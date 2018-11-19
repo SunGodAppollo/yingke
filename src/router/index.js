@@ -9,7 +9,9 @@ import AddBlacklist from "../components/users/addBlacklist"
 import AddUser from "../components/users/addUser"
 import Verification from "../components/users/verification"
 import Statement from "../components/operation/statement"
-import Brand from "../components/brand/brand";
+import Brand from "../components/brand/brand"
+import Vip from "../components/vip/vip"
+
 
 Vue.use(Router)
 
@@ -58,6 +60,10 @@ export default new Router({
       path: '/brand',
       name: 'Brand',
       component: Brand
+    },{
+      path: '/vip',
+      name: 'Vip',
+      component: Vip
     }
 ]
 })
